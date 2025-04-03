@@ -115,7 +115,6 @@ void delend(struct node** head) {
     }
 }
 
-// Function to delete a node from a specific position
 void deletemid(struct node** head, int pos) {
     if (*head == NULL) {
         printf("List is empty\n");
@@ -139,7 +138,6 @@ void deletemid(struct node** head, int pos) {
     }
 }
 
-// Function to traverse and display the list
 void traverse(struct node* head) {
     struct node* temp = head;
     while (temp != NULL) {
@@ -149,7 +147,7 @@ void traverse(struct node* head) {
     printf("\n");
 }
 
-// Main function
+
 int main() {
     printf("Menu\n");
     printf("1 to insert at beginning\n");
